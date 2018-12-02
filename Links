@@ -1,0 +1,17 @@
+https://pt.stackoverflow.com/questions/30116/habilitar-o-htaccess-no-ubuntu
+
+
+sudo a2enmod rewrite
+sudo systemctl restart apache2
+
+################### /etc/apache2/apache2.conf ###########
+
+<Directory "/var/www/html">
+    AllowOverride All
+</Directory>
+
+#################### .htaccess ###################
+RewriteEngine on
+RewriteCond %{SCRIPT_FILENAME} !-f
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteRule ^(.*)$ index.php?url=$1
