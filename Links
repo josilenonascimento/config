@@ -4,6 +4,9 @@ http://www.phpit.com.br/artigos/configurando-ssl-servidor-de-desenvolvimento-apa
 ativar o mod_rewrite no apache
 https://www.vivaolinux.com.br/dica/Ativando-modo-de-reescrita-de-URL-mod-rewrite-no-Apache
 
+ssl ou ca
+http://docs.smsaude.com.br/2015/10/autoridade-certificadora-certificate-authority-ca-pessoalempresarial-com-o-openssl-parte-1/
+
 outros links
 https://www.conversion.com.br/blog/redirecionamento-http-para-https-importancia-como-fazer-e-quais-precaucoes-tomar/
 https://www.hostnet.com.br/info/htaccess/#Redirecionamento_de_HTTP_para_HTTPS
