@@ -1,1 +1,10 @@
-This is my test!
+ssh-keygen -t rsa -b 4096 -C "you@gmail.com"
+
+eval "$(ssh-agent -s)"
+
+ssh-add ~/.ssh/id_rsa
+
+cat ~/.ssh/id_rsa.pub
+
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
